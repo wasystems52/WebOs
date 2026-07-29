@@ -1,0 +1,7 @@
+package com.brandao.os.domain;
+
+public class Cliente extends Pessoa {
+
+	
+	
+}
