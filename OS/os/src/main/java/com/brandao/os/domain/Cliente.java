@@ -1,6 +1,19 @@
 package com.brandao.os.domain;
 
-public class Cliente extends Pessoa {
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+
+@Entity(name = "TB_Cliente")
+public class Cliente extends Pessoa implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@OneToMany(mappedBy = "cliente")
+	private List<OS> list = new ArrayList<>();
 
 	public Cliente() {
 		super();
@@ -12,6 +25,12 @@ public class Cliente extends Pessoa {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
+	public List<OS> getList() {
+		return list;
+	}
+
+	public void setList(List<OS> list) {
+		this.list = list;
+	}
+
 }
