@@ -1,0 +1,5 @@
+package com.brandao.os.repositories;
+
+public interface TecnicoRepository {
+
+}

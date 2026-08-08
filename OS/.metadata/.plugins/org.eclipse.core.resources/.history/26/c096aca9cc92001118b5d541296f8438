@@ -1,0 +1,30 @@
+package com.brandao.os;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.brandao.os.domain.Cliente;
+import com.brandao.os.domain.OS;
+import com.brandao.os.domain.Tecnico;
+import com.brandao.os.domain.enums.Prioridade;
+import com.brandao.os.domain.enums.Status;
+
+@SpringBootApplication
+public class OsApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(OsApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Tecnico t1 = new Tecnico(null, "Valdir Cezar", "598.769.120-62", "(88)98888-8888" );
+		Cliente c1 = new Cliente(null,"Betina Campos", "598.508.200-80", "(88)98888-7777");
+		OS os = new OS(null, Prioridade.ALTA, "Teste create OS", Status.ANDAMENTO, t1, c1);
+		
+		
+	}
+
+}

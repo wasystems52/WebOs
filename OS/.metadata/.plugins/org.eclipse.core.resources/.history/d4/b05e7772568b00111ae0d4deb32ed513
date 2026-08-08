@@ -1,5 +1,0 @@
-package com.brandao.os.domain.enums;
-
-public enum Prioridade {
-
-}
