@@ -4,7 +4,7 @@ INDEX VERSION 1.134+E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto Java_Angul
 3356240573.index
 2162269751.index
 3697834861.index
-3926723103.index
+1204282457.index
 1490094437.index
 2306810401.index
 941725229.index
@@ -47,14 +47,14 @@ INDEX VERSION 1.134+E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto Java_Angul
 1350093750.index
 1232913069.index
 2309476601.index
-2872938578.index
+1080104983.index
 2930384866.index
+2872938578.index
 1968468452.index
-2049312339.index
 920121447.index
 1354896477.index
-1080104983.index
 3886965833.index
+2049312339.index
 762723540.index
 3434971267.index
 4049258139.index
@@ -93,6 +93,6 @@ INDEX VERSION 1.134+E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto Java_Angul
 583013804.index
 1717666872.index
 2849893792.index
-3120816247.index
-1204282457.index
+3926723103.index
 3790306167.index
+3120816247.index
